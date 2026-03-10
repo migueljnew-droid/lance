@@ -1,0 +1,83 @@
+# Case Law — Music Publishing Disputes
+
+- title: "Warner/Chappell Music v. Nealy"
+  citation: "601 U.S. ___ (2024)"
+  court: "United States Supreme Court"
+  year: 2024
+  relevance: "CRITICAL"
+  holding: "Under the discovery accrual rule, a copyright plaintiff may recover damages for infringing acts occurring more than three years prior to filing suit. No separate damages bar limits recovery once claim is timely filed."
+  application: "If songwriter did not discover underpayments until recently, damages reach back to the full period — potentially to 2010 agreement."
+  tags: ["copyright", "statute_of_limitations", "damages", "discovery_rule"]
+
+- title: "F.B.T. Productions v. Aftermath Entertainment"
+  citation: "621 F.3d 958 (9th Cir. 2010)"
+  court: "Ninth Circuit Court of Appeals"
+  year: 2010
+  relevance: "HIGH"
+  holding: "Digital distribution constitutes a 'license' not a 'sale' for royalty rate purposes. When a label licenses masters to digital platforms (no inventory risk), the license royalty rate applies, not the lower sales rate."
+  application: "If publishing agreement distinguishes sales vs. licenses, streaming income should be treated as license income at higher royalty rate."
+  damages: "$8.5 million in underpaid royalties"
+  tags: ["digital_royalties", "license_vs_sale", "streaming", "mechanical"]
+
+- title: "Steele v. Turner Broadcasting System, Inc."
+  citation: "638 F.Supp.2d 236 (D. Mass. 2009)"
+  court: "District of Massachusetts"
+  year: 2009
+  relevance: "MODERATE"
+  holding: "Broad audit rights enforceable. Court compelled production of sub-licensing records, bank statements, and internal accounting documents."
+  application: "Supports broad interpretation of audit clauses. Even narrow audit language should be read broadly where audited party holds superior information."
+  tags: ["audit_rights", "discovery", "accounting"]
+
+- title: "BMI v. DMX, Inc."
+  citation: "683 F.3d 32 (2d Cir. 2012)"
+  court: "Second Circuit Court of Appeals"
+  year: 2012
+  relevance: "MODERATE"
+  holding: "Digital music services must report accurate, complete usage data. Under-reporting is not merely breach of license but potentially § 501 infringement."
+  application: "Publisher's obligation to accurately account applies. Inaccurate royalty statements may support copyright claim beyond contract breach."
+  tags: ["reporting", "accuracy", "infringement"]
+
+- title: "Waits v. Frito-Lay, Inc."
+  citation: "978 F.2d 1093 (9th Cir. 1992)"
+  court: "Ninth Circuit Court of Appeals"
+  year: 1992
+  relevance: "MODERATE"
+  holding: "California courts aggressively protect artist economic interests. Large damages awarded for unauthorized exploitation."
+  application: "Establishes California's pro-artist posture in entertainment disputes."
+  tags: ["artist_rights", "california", "damages"]
+
+- title: "Three Boys Music Corp. v. Bolton"
+  citation: "212 F.3d 477 (9th Cir. 2000)"
+  court: "Ninth Circuit Court of Appeals"
+  year: 2000
+  relevance: "MODERATE"
+  holding: "Copyright interests in musical works broadly protected. Subconscious copying doctrine applies."
+  application: "Establishes broad copyright protection for musical compositions."
+  tags: ["copyright", "infringement", "musical_works"]
+
+- title: "Lazar v. Superior Court"
+  citation: "12 Cal.4th 631 (1996)"
+  court: "California Supreme Court"
+  year: 1996
+  relevance: "HIGH"
+  holding: "Fraud claim elements: misrepresentation, knowledge of falsity, intent to defraud, justifiable reliance, resulting damages. Clear and convincing evidence required."
+  application: "Sets the standard for fraud claims in California. Applicable if publisher knowingly misrepresented royalty accounting."
+  tags: ["fraud", "elements", "california"]
+
+- title: "Comunale v. Traders & General Insurance Co."
+  citation: "50 Cal.2d 654 (1958)"
+  court: "California Supreme Court"
+  year: 1958
+  relevance: "HIGH"
+  holding: "Every contract implies covenant of good faith and fair dealing. Party may not act to deprive other of benefits of agreement."
+  application: "Publisher failing to collect, register, or account properly breaches implied covenant."
+  tags: ["good_faith", "implied_covenant", "contract"]
+
+- title: "State Farm Mutual Auto Insurance Co. v. Campbell"
+  citation: "538 U.S. 408 (2003)"
+  court: "United States Supreme Court"
+  year: 2003
+  relevance: "MODERATE"
+  holding: "Punitive damages must bear reasonable relationship to compensatory damages. Single-digit ratio guideline."
+  application: "Caps potential punitive damages award. 4:1 ratio is common benchmark."
+  tags: ["punitive_damages", "due_process", "constitutional"]

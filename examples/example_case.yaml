@@ -1,0 +1,61 @@
+# Example Case Configuration
+# Copy this template and modify for your dispute
+
+case:
+  id: "CASE-20260101"
+  title: "Artist v. Publisher — Royalty Dispute"
+  type: "publishing_royalty_dispute"
+  state: "evidence_gathering"
+  priority: "high"
+
+  jurisdiction:
+    primary_state: "CA"
+    federal: true
+    governing_law: "California"
+    venue: "Los Angeles County Superior Court"
+
+  claimant:
+    id: "claimant"
+    name: "Jane Doe"
+    aka:
+      - "J. Doe Music"
+    role: "claimant"
+    address: "123 Main St, Los Angeles, CA 90001"
+    email: "jane@example.com"
+    ipi: "00123456789"
+
+  respondents:
+    - id: "publisher"
+      name: "Example Music Publishing, Inc."
+      role: "publisher/administrator"
+      entity: "Example Music Corp"
+      address: "456 Music Row, Nashville, TN 37203"
+      email: "legal@example-music.com"
+
+  contract:
+    type: "Co-Publishing Agreement"
+    date_signed: "2015-06-15"
+    key_terms:
+      - "50/50 co-publishing split"
+      - "Publisher as exclusive worldwide administrator"
+      - "Songwriter retains writer share (paid direct by PRO)"
+    audit_clause: "Section 12 — right to audit with 30 days notice"
+    term: "Life of copyright"
+
+  claims:
+    - id: "CLM-001"
+      type: "breach_of_contract"
+      description: "Failure to properly account for and pay mechanical royalties"
+      statute: "Cal. CCP § 337"
+      sol_years: 4
+      discovery_date: "2026-01-15"
+      estimated_damages: 25000
+
+    - id: "CLM-002"
+      type: "accounting"
+      description: "Right to full accounting of all income collected"
+      statute: "Cal. CCP § 345"
+      sol_years: 4
+
+  created: "2026-01-15"
+  updated: "2026-01-15"

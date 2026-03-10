@@ -1,0 +1,34 @@
+# Mechanical Licensing Collective (MLC) Rules and Procedures
+
+- title: "MLC Designation and Authority"
+  citation: "17 U.S.C. § 115(d)(3)"
+  jurisdiction: "FEDERAL"
+  type: "statute"
+  summary: "MLC designated by Copyright Office to administer blanket mechanical license. Collects and distributes mechanical royalties for interactive streaming. Maintains public musical works database."
+  key_obligations:
+    - "Collect royalties from digital music providers (Spotify, Apple Music, etc.)"
+    - "Match sound recordings to musical work registrations"
+    - "Distribute royalties to copyright owners based on ownership data"
+    - "Maintain publicly accessible database of musical works"
+
+- title: "Share Registration with MLC"
+  type: "mlc_procedure"
+  summary: "Copyright owners register works and ownership shares through MLC Member Portal. Incorrect registrations result in misallocation of royalties."
+  application: "If Warner/Chappell registered incorrect shares with MLC, songwriter is not receiving correct mechanical royalty allocation from streaming."
+  correction_process:
+    - "Log into MLC Member Portal (themlc.com)"
+    - "OR email: members@themlc.com"
+    - "Submit producer agreement showing correct share"
+    - "MLC reviews and corrects registration"
+  timeline: "30-90 days for correction"
+
+- title: "Unmatched Royalties"
+  citation: "17 U.S.C. § 115(d)(3)(H)"
+  type: "statute"
+  summary: "MLC holds unmatched royalties for minimum 3 years. After holding period, unmatched funds distributed to known copyright owners on market share basis."
+  application: "If works are not properly registered, royalties may be sitting in unmatched pool. Must claim before distribution to others."
+
+- title: "MLC Dispute Resolution"
+  type: "mlc_procedure"
+  summary: "MLC has internal dispute resolution for competing ownership claims. If two parties claim same share, MLC may hold royalties pending resolution."
+  application: "If Warner/Chappell and another entity both claim shares totaling more than 100%, MLC will flag and hold royalties."

@@ -1,0 +1,107 @@
+# Statutes of Limitations — Quick Reference Table
+
+sol_table:
+  - claim_type: "breach_of_contract"
+    jurisdiction: "CA"
+    years_written: 4
+    years_oral: 2
+    statute: "CCP § 337 (written), § 339 (oral)"
+    discovery_rule: true
+    tolling:
+      - "Fraudulent concealment"
+      - "Installment contract doctrine (each statement = new breach)"
+      - "Defendant absent from state (CCP § 351)"
+      - "Plaintiff under disability (CCP § 352)"
+
+  - claim_type: "fraud"
+    jurisdiction: "CA"
+    years: 3
+    statute: "CCP § 338(d)"
+    discovery_rule: true
+    tolling:
+      - "SOL runs from date of discovery of fraud"
+      - "Fiduciary relationship extends discovery period"
+      - "Fraudulent concealment by defendant"
+
+  - claim_type: "breach_of_fiduciary_duty"
+    jurisdiction: "CA"
+    years: 4
+    statute: "CCP § 343"
+    discovery_rule: true
+    tolling:
+      - "Self-dealing concealment by fiduciary"
+      - "Fiduciary's continuing duty of disclosure"
+
+  - claim_type: "accounting"
+    jurisdiction: "CA"
+    years: 4
+    statute: "CCP § 345"
+    discovery_rule: true
+    tolling:
+      - "Continuing duty to account"
+      - "Equitable remedy — flexible limitations"
+
+  - claim_type: "unfair_business_practices"
+    jurisdiction: "CA"
+    years: 4
+    statute: "Bus. & Prof. Code § 17208"
+    discovery_rule: false
+    tolling:
+      - "No discovery rule — runs from act"
+      - "But continuing violations may extend"
+
+  - claim_type: "copyright_infringement"
+    jurisdiction: "FEDERAL"
+    years: 3
+    statute: "28 U.S.C. § 507(b)"
+    discovery_rule: true
+    tolling:
+      - "Warner/Chappell v. Nealy (2024): discovery accrual rule"
+      - "No separate damages bar — full historic damages recoverable"
+      - "Each act of infringement is separate claim"
+
+  - claim_type: "unjust_enrichment"
+    jurisdiction: "CA"
+    years: 4
+    statute: "CCP § 343 (catch-all)"
+    discovery_rule: true
+    tolling:
+      - "Discovery rule applies"
+
+  - claim_type: "breach_of_contract"
+    jurisdiction: "NY"
+    years: 6
+    statute: "CPLR § 213(2)"
+    discovery_rule: false
+    tolling:
+      - "Runs from date of breach"
+      - "No discovery rule for contract in NY"
+
+  - claim_type: "breach_of_contract"
+    jurisdiction: "TN"
+    years: 6
+    statute: "Tenn. Code § 28-3-109"
+    discovery_rule: false
+    tolling:
+      - "6-year SOL for written contracts"
+
+tolling_doctrines:
+  - name: "Discovery Rule"
+    description: "SOL runs from date plaintiff discovered or should have discovered the injury, not from date of act."
+    key_case: "Warner/Chappell v. Nealy, 601 U.S. ___ (2024)"
+    application: "Most powerful for royalty disputes where publisher controls all data."
+
+  - name: "Fraudulent Concealment"
+    description: "SOL tolled when defendant actively conceals wrongdoing."
+    key_case: "Grisham v. Philip Morris (2007) 40 Cal.4th 623"
+    application: "Publisher's failure to provide accurate statements may constitute concealment."
+
+  - name: "Continuing Violation"
+    description: "Each wrongful act restarts the SOL."
+    key_case: "Aryeh v. Canon Business Solutions, 55 Cal.4th 1185 (2013)"
+    application: "Each underpaying royalty statement is a continuing violation."
+
+  - name: "Equitable Tolling"
+    description: "SOL tolled when plaintiff is pursuing remedy in another forum."
+    key_case: "Lantzy v. Centex Homes, 31 Cal.4th 363 (2003)"
+    application: "If pursuing PRO dispute or MLC correction, may toll related contract SOL."

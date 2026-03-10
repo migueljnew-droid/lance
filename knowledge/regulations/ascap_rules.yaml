@@ -1,0 +1,32 @@
+# ASCAP Consent Decree and Member Rights
+
+- title: "ASCAP Second Amended Final Judgment (Consent Decree)"
+  citation: "United States v. ASCAP, No. 41-1395 (S.D.N.Y., AFJ2 2001)"
+  jurisdiction: "FEDERAL"
+  type: "consent_decree"
+  summary: "Governs ASCAP's licensing practices. Requires reasonable, non-discriminatory licensing. Establishes rate court for disputes. Members retain right to license works directly."
+  key_provisions:
+    - "ASCAP must offer blanket license to any music user"
+    - "Rate Court (S.D.N.Y.) determines reasonable fees if parties cannot agree"
+    - "Members may withdraw specific rights"
+    - "Publisher and writer share performance royalties separately"
+
+- title: "Writer Share Rules"
+  type: "ascap_policy"
+  summary: "ASCAP pays writer share directly to songwriter. Publisher share paid to publisher. Standard split: 50% writer / 50% publisher of performance royalties."
+  application: "Writer should receive 50% of performance royalties directly from ASCAP, regardless of co-publishing split on mechanical/other income. If ASCAP shows only 7.8% writer share instead of expected higher amount, registration error exists."
+
+- title: "Share Correction Process"
+  type: "ascap_procedure"
+  summary: "Members can request share corrections through Member Access portal, phone (1-800-952-7227), or mail to Nashville office."
+  requirements:
+    - "Producer/co-writer agreement showing agreed share percentage"
+    - "Current ASCAP statement showing incorrect percentage"
+    - "ACE Repertory screenshot"
+  timeline: "Typically 30-60 days for review and correction"
+
+- title: "ACE Repertory Database"
+  type: "ascap_tool"
+  summary: "Public searchable database of ASCAP works. Shows registered titles, writers, publishers, and share splits."
+  url: "https://www.ascap.com/repertory"
+  application: "Use to verify how works are currently registered and identify discrepancies between registration and contract terms."

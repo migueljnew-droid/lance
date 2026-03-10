@@ -1,0 +1,83 @@
+# California State Law — Civil Code, CCP, Business & Professions
+
+- title: "Breach of Written Contract"
+  citation: "Cal. CCP § 337"
+  jurisdiction: "CA"
+  type: "statute_of_limitations"
+  years: 4
+  discovery_rule: true
+  summary: "4-year SOL for breach of written contract. Each underpaying royalty statement is a separate breach under installment contract doctrine."
+  application: "Publishing agreement is a written contract. Each royalty statement that underpays constitutes a separate breach, resetting the 4-year clock."
+
+- title: "Breach of Oral Contract"
+  citation: "Cal. CCP § 339"
+  jurisdiction: "CA"
+  type: "statute_of_limitations"
+  years: 2
+  summary: "2-year SOL for breach of oral contract."
+
+- title: "Fraud"
+  citation: "Cal. CCP § 338(d)"
+  jurisdiction: "CA"
+  type: "statute_of_limitations"
+  years: 3
+  discovery_rule: true
+  summary: "3-year SOL for fraud, running from discovery. Publisher's superior knowledge of licensing data triggers delayed discovery doctrine."
+  elements:
+    - "Misrepresentation (false representation, concealment, or nondisclosure)"
+    - "Knowledge of falsity (scienter)"
+    - "Intent to defraud (induce reliance)"
+    - "Justifiable reliance"
+    - "Resulting damages"
+  source: "CACI 1900; Lazar v. Superior Court (1996) 12 Cal.4th 631"
+
+- title: "Accounting"
+  citation: "Cal. CCP § 345"
+  jurisdiction: "CA"
+  type: "statute_of_limitations"
+  years: 4
+  summary: "4-year SOL for accounting claims. Right to accounting is equitable — flexible SOL. Continuous duty to account may reset SOL."
+
+- title: "Unconscionability"
+  citation: "Cal. Civil Code § 1670.5"
+  jurisdiction: "CA"
+  summary: "Court may refuse to enforce unconscionable contract or clause. Requires both procedural unconscionability (surprise, unequal bargaining) and substantive unconscionability (overly harsh terms)."
+  application: "Major publisher standard-form agreements with new songwriters often satisfy both prongs."
+
+- title: "Implied Covenant of Good Faith and Fair Dealing"
+  citation: "Cal. common law; Comunale v. Traders (1958) 50 Cal.2d 654"
+  jurisdiction: "CA"
+  summary: "Every contract contains implied covenant. Breach when party acts to deprive other of benefits of the agreement."
+  application: "Publisher failing to collect, properly account, or properly register works breaches implied covenant."
+
+- title: "Prejudgment Interest"
+  citation: "Cal. Civil Code § 3287(a)"
+  jurisdiction: "CA"
+  summary: "Prejudgment interest at 10% per annum on damages certain or capable of calculation. Runs from date of loss."
+  application: "Royalty underpayments are calculable damages — 10% simple interest from each underpayment date."
+
+- title: "Punitive Damages"
+  citation: "Cal. Civil Code § 3294"
+  jurisdiction: "CA"
+  summary: "Punitive damages available for fraud, oppression, or malice. Requires clear and convincing evidence. Due process limits apply (State Farm v. Campbell, 538 U.S. 408)."
+  application: "If publisher's conduct rises to fraud or intentional wrongdoing, punitive damages may be available. Single-digit ratio to compensatory damages is the guideline."
+
+- title: "Unfair Competition Law (UCL)"
+  citation: "Cal. Bus. & Prof. Code § 17200"
+  jurisdiction: "CA"
+  type: "statute_of_limitations"
+  years: 4
+  summary: "Prohibits unlawful, unfair, or fraudulent business practices. Remedies: restitution and injunctive relief. No punitive damages. 4-year SOL from commission of act."
+  application: "Systematic under-registration and under-collection by a publisher may constitute unfair business practice."
+
+- title: "Unjust Enrichment"
+  citation: "Ghirardo v. Antonioli (1996) 14 Cal.4th 39"
+  jurisdiction: "CA"
+  summary: "Quasi-contractual remedy. Defendant unjustly enriched at plaintiff's expense when retention of benefit would be unjust."
+  application: "Publisher retaining songwriter's royalties beyond contractual share constitutes unjust enrichment."
+
+- title: "Attorney Fee Reciprocity"
+  citation: "Cal. Civil Code § 1717"
+  jurisdiction: "CA"
+  summary: "If contract provides attorney fees to one party, the prevailing party in any action on the contract is entitled to fees."
+  application: "If the publishing agreement has an attorney fee clause, it is bilateral regardless of how it's written."

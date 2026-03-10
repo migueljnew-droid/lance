@@ -1,0 +1,59 @@
+# Federal Copyright Law — 17 U.S.C.
+
+- title: "Subject Matter of Copyright"
+  citation: "17 U.S.C. § 102"
+  jurisdiction: "FEDERAL"
+  summary: "Copyright protection subsists in original works of authorship fixed in a tangible medium, including musical works and sound recordings."
+  application: "Establishes copyright in musical compositions and sound recordings as distinct works."
+
+- title: "Compulsory License for Making and Distributing Phonorecords"
+  citation: "17 U.S.C. § 115"
+  jurisdiction: "FEDERAL"
+  summary: "Provides compulsory mechanical license for nondramatic musical works. Sets procedures for obtaining license and paying royalties. As amended by MMA, establishes blanket mechanical license administered by MLC."
+  application: "Governs mechanical royalty rates and collection. Publisher must properly register works and collect at statutory rate."
+  key_provisions:
+    - "§ 115(a): Compulsory license conditions"
+    - "§ 115(c): Royalty rates set by Copyright Royalty Board (37 C.F.R. Part 385)"
+    - "§ 115(d): Blanket license (added by MMA 2018)"
+    - "§ 115(d)(3)(C): MLC must distribute royalties based on usage and ownership data"
+
+- title: "Exclusive Rights in Copyrighted Works"
+  citation: "17 U.S.C. § 106"
+  jurisdiction: "FEDERAL"
+  summary: "Copyright owner has exclusive rights to reproduce, distribute, perform publicly, display, and prepare derivative works."
+  application: "Unauthorized exploitation of compositions without proper licensing or accounting constitutes infringement."
+
+- title: "Termination of Transfers"
+  citation: "17 U.S.C. § 203"
+  jurisdiction: "FEDERAL"
+  summary: "Author may terminate grant of copyright after 35 years. Notice must be served 2-10 years before termination date. Applies to grants made on or after January 1, 1978."
+  application: "For a 2010 publishing agreement, termination window opens in 2045. Notice can be served as early as 2035."
+  key_provisions:
+    - "§ 203(a)(3): Termination effective 35 years after grant"
+    - "§ 203(a)(4): Notice 2-10 years before termination date"
+    - "§ 203(b)(1): Derivative works prepared before termination may continue"
+    - "Works made for hire are NOT subject to § 203 termination"
+
+- title: "Copyright Infringement and Remedies"
+  citation: "17 U.S.C. §§ 501-505"
+  jurisdiction: "FEDERAL"
+  summary: "Infringement remedies include injunctions, actual damages plus profits, statutory damages ($750-$30,000 per work; up to $150,000 for willful), and attorney fees."
+  key_provisions:
+    - "§ 501: Infringement definition"
+    - "§ 502: Injunctions"
+    - "§ 504(a): Actual damages and profits OR statutory damages"
+    - "§ 504(b): Actual damages = lost profits + infringer's profits attributable to infringement"
+    - "§ 504(c): Statutory damages per work infringed"
+    - "§ 505: Attorney fees and costs (discretionary)"
+
+- title: "Limitations on Actions"
+  citation: "28 U.S.C. § 507(b)"
+  jurisdiction: "FEDERAL"
+  summary: "No civil action under copyright shall be maintained unless commenced within 3 years after the claim accrued."
+  application: "Under Warner/Chappell v. Nealy (2024), discovery rule applies — SOL runs from discovery. Once timely filed, damages reach back to full infringement period."
+
+- title: "Copyright Registration"
+  citation: "17 U.S.C. § 411"
+  jurisdiction: "FEDERAL"
+  summary: "Registration required before filing infringement suit (for U.S. works). Registration within 3 months of publication or before infringement enables statutory damages and attorney fees."
+  application: "Verify all compositions are registered with Copyright Office before filing any federal copyright claim."
