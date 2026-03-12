@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
+      <stop offset="0%" style="stop-color:#1a0a0a;stop-opacity:1"/>
+      <stop offset="50%" style="stop-color:#0d0606;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#080303;stop-opacity:1"/>
+    </radialGradient>
+
+    <linearGradient id="crimson" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#8b0000"/>
+      <stop offset="30%" style="stop-color:#cc2222"/>
+      <stop offset="50%" style="stop-color:#ff3333"/>
+      <stop offset="70%" style="stop-color:#cc2222"/>
+      <stop offset="100%" style="stop-color:#8b0000"/>
+    </linearGradient>
+
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff4444"/>
+      <stop offset="40%" style="stop-color:#cc2222"/>
+      <stop offset="100%" style="stop-color:#8b0000"/>
+    </linearGradient>
+
+    <linearGradient id="lineFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#cc2222;stop-opacity:0"/>
+      <stop offset="20%" style="stop-color:#cc2222;stop-opacity:0.5"/>
+      <stop offset="50%" style="stop-color:#ff3333;stop-opacity:0.8"/>
+      <stop offset="80%" style="stop-color:#cc2222;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#cc2222;stop-opacity:0"/>
+    </linearGradient>
+
+    <linearGradient id="goldAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#B8860B"/>
+      <stop offset="50%" style="stop-color:#DAA520"/>
+      <stop offset="100%" style="stop-color:#B8860B"/>
+    </linearGradient>
+
+    <radialGradient id="redAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#cc2222;stop-opacity:0.06"/>
+      <stop offset="60%" style="stop-color:#cc2222;stop-opacity:0.02"/>
+      <stop offset="100%" style="stop-color:#cc2222;stop-opacity:0"/>
+    </radialGradient>
+
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="textGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-color="#cc2222" flood-opacity="0.2"/>
+      <feComposite in2="blur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+
+    <!-- Scales of justice pattern -->
+    <pattern id="legalGrid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="60" height="60" fill="none" stroke="#cc2222" stroke-width="0.15" opacity="0.06"/>
+      <line x1="0" y1="30" x2="60" y2="30" stroke="#cc2222" stroke-width="0.1" opacity="0.04"/>
+      <line x1="30" y1="0" x2="30" y2="60" stroke="#cc2222" stroke-width="0.1" opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bgGlow)"/>
+  <rect width="1200" height="400" filter="url(#noise)" opacity="0.012"/>
+  <rect width="1200" height="400" fill="url(#legalGrid)"/>
+
+  <!-- Central aura -->
+  <ellipse cx="600" cy="175" rx="400" ry="200" fill="url(#redAura)"/>
+
+  <!-- Case flow LEFT -->
+  <g opacity="0.12" transform="translate(35, 120)">
+    <rect x="0" y="0" width="80" height="24" rx="3" fill="none" stroke="#cc2222" stroke-width="0.6"/>
+    <text x="40" y="16" text-anchor="middle" font-family="monospace" font-size="7" fill="#cc2222">EVIDENCE</text>
+    <line x1="85" y1="12" x2="100" y2="12" stroke="#cc2222" stroke-width="0.4"/>
+    <polygon points="100,10 104,12 100,14" fill="#cc2222" opacity="0.5"/>
+    <rect x="108" y="0" width="72" height="24" rx="3" fill="none" stroke="#cc2222" stroke-width="0.6"/>
+    <text x="144" y="16" text-anchor="middle" font-family="monospace" font-size="7" fill="#cc2222">DEMAND</text>
+  </g>
+
+  <!-- Case flow RIGHT -->
+  <g opacity="0.12" transform="translate(985, 120)">
+    <rect x="0" y="0" width="86" height="24" rx="3" fill="none" stroke="#cc2222" stroke-width="0.6"/>
+    <text x="43" y="16" text-anchor="middle" font-family="monospace" font-size="7" fill="#cc2222">LITIGATION</text>
+    <line x1="91" y1="12" x2="106" y2="12" stroke="#cc2222" stroke-width="0.4"/>
+    <polygon points="106,10 110,12 106,14" fill="#cc2222" opacity="0.5"/>
+    <rect x="114" y="0" width="86" height="24" rx="3" fill="none" stroke="#cc2222" stroke-width="0.6"/>
+    <text x="157" y="16" text-anchor="middle" font-family="monospace" font-size="7" fill="#cc2222">RESOLUTION</text>
+  </g>
+
+  <!-- Evidence items LEFT -->
+  <g opacity="0.08" font-family="monospace" font-size="7" fill="#cc2222">
+    <rect x="55" y="200" width="150" height="14" rx="2" fill="none" stroke="#cc2222" stroke-width="0.4"/>
+    <text x="65" y="210">SHA-256: 7f3a9...</text>
+    <rect x="70" y="222" width="150" height="14" rx="2" fill="none" stroke="#cc2222" stroke-width="0.4"/>
+    <text x="80" y="232">Chain of Custody</text>
+    <rect x="50" y="244" width="150" height="14" rx="2" fill="none" stroke="#cc2222" stroke-width="0.4"/>
+    <text x="60" y="254">SOL: 347 days left</text>
+  </g>
+
+  <!-- Legal items RIGHT -->
+  <g opacity="0.08" font-family="monospace" font-size="7" fill="#cc2222">
+    <rect x="1000" y="200" width="150" height="14" rx="2" fill="none" stroke="#cc2222" stroke-width="0.4"/>
+    <text x="1010" y="210">17 USC &sect; 101-810</text>
+    <rect x="1015" y="222" width="150" height="14" rx="2" fill="none" stroke="#cc2222" stroke-width="0.4"/>
+    <text x="1025" y="232">Damages: $XXX,XXX</text>
+    <rect x="995" y="244" width="150" height="14" rx="2" fill="none" stroke="#cc2222" stroke-width="0.4"/>
+    <text x="1005" y="254">Escalation: AUTO</text>
+  </g>
+
+  <!-- Particles -->
+  <g filter="url(#glow)">
+    <circle cx="150" cy="55" r="1.2" fill="#cc2222" opacity="0.35"/>
+    <circle cx="320" cy="90" r="1" fill="#ff4444" opacity="0.3"/>
+    <circle cx="480" cy="50" r="0.8" fill="#cc2222" opacity="0.3"/>
+    <circle cx="720" cy="55" r="1" fill="#ff4444" opacity="0.25"/>
+    <circle cx="880" cy="75" r="1.2" fill="#cc2222" opacity="0.3"/>
+    <circle cx="1060" cy="45" r="1" fill="#ff4444" opacity="0.35"/>
+    <circle cx="180" cy="355" r="1" fill="#cc2222" opacity="0.2"/>
+    <circle cx="420" cy="345" r="0.8" fill="#ff4444" opacity="0.2"/>
+    <circle cx="780" cy="355" r="1" fill="#cc2222" opacity="0.25"/>
+    <circle cx="1020" cy="365" r="0.8" fill="#ff4444" opacity="0.2"/>
+  </g>
+
+  <!-- Top accent -->
+  <rect x="200" y="0" width="800" height="1.5" fill="url(#lineFade)"/>
+
+  <!-- Corner brackets -->
+  <g stroke="#cc2222" stroke-width="1.5" fill="none" opacity="0.3">
+    <path d="M15,4 L4,4 L4,30"/>
+    <path d="M1185,4 L1196,4 L1196,30"/>
+    <path d="M15,396 L4,396 L4,370"/>
+    <path d="M1185,396 L1196,396 L1196,370"/>
+  </g>
+
+  <!-- Tagline above title -->
+  <text x="600" y="118" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="300" font-size="10" fill="#cc2222" letter-spacing="6" opacity="0.45">NEVER REGRESS  ·  ALWAYS ESCALATE  ·  BLOCK ON CRITICAL</text>
+
+  <!-- Main title -->
+  <text x="600" y="178" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="900" font-size="76" fill="url(#titleGrad)" letter-spacing="16" filter="url(#textGlow)">
+    LANCE
+  </text>
+
+  <!-- Subtitle -->
+  <text x="600" y="214" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-weight="300" font-size="14" fill="#ffffff" letter-spacing="6" opacity="0.85">
+    LEGAL ACTION &amp; NEGOTIATION COMMAND ENGINE
+  </text>
+
+  <!-- Divider with scale icon -->
+  <line x1="440" y1="237" x2="570" y2="237" stroke="url(#lineFade)" stroke-width="0.5"/>
+  <g transform="translate(593, 230)" opacity="0.4">
+    <line x1="7" y1="0" x2="7" y2="14" stroke="#cc2222" stroke-width="0.8"/>
+    <line x1="0" y1="3" x2="14" y2="3" stroke="#cc2222" stroke-width="0.8"/>
+    <path d="M0,3 L3,10" stroke="#cc2222" stroke-width="0.5" fill="none"/>
+    <path d="M14,3 L11,10" stroke="#cc2222" stroke-width="0.5" fill="none"/>
+  </g>
+  <line x1="630" y1="237" x2="760" y2="237" stroke="url(#lineFade)" stroke-width="0.5"/>
+
+  <!-- Feature highlights -->
+  <g font-family="system-ui, -apple-system, sans-serif" text-anchor="middle">
+    <text x="390" y="275" font-weight="600" font-size="12" fill="#cc2222" opacity="0.7">Evidence</text>
+    <text x="390" y="290" font-weight="300" font-size="9" fill="#667788" letter-spacing="1">SHA-256 VERIFIED</text>
+
+    <text x="490" y="282" font-size="8" fill="#cc2222" opacity="0.15">|</text>
+
+    <text x="530" y="275" font-weight="600" font-size="12" fill="#cc2222" opacity="0.7">Deadlines</text>
+    <text x="530" y="290" font-weight="300" font-size="9" fill="#667788" letter-spacing="1">SOL TRACKING</text>
+
+    <text x="600" y="282" font-size="8" fill="#cc2222" opacity="0.15">|</text>
+
+    <text x="670" y="275" font-weight="600" font-size="12" fill="#cc2222" opacity="0.7">Escalation</text>
+    <text x="670" y="290" font-weight="300" font-size="9" fill="#667788" letter-spacing="1">RULE-BASED</text>
+
+    <text x="740" y="282" font-size="8" fill="#cc2222" opacity="0.15">|</text>
+
+    <text x="810" y="275" font-weight="600" font-size="12" fill="#cc2222" opacity="0.7">Knowledge</text>
+    <text x="810" y="290" font-weight="300" font-size="9" fill="#667788" letter-spacing="1">STATUTES + CASE LAW</text>
+  </g>
+
+  <!-- Tagline -->
+  <text x="600" y="330" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="300" font-size="11" fill="#556666" letter-spacing="2">
+    Legal disputes managed with software engineering rigor
+  </text>
+
+  <!-- Author -->
+  <text x="600" y="368" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="11" fill="#cc2222" letter-spacing="5" opacity="0.4">
+    BUILT BY LOUIS GOLD
+  </text>
+
+  <!-- Bottom accent -->
+  <rect x="200" y="398.5" width="800" height="1.5" fill="url(#lineFade)"/>
+</svg>
