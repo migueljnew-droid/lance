@@ -40,26 +40,6 @@
       <stop offset="100%" style="stop-color:#cc2222;stop-opacity:0"/>
     </radialGradient>
 
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-
-    <filter id="textGlow" x="-10%" y="-10%" width="120%" height="120%">
-      <feGaussianBlur stdDeviation="5" result="blur"/>
-      <feFlood flood-color="#cc2222" flood-opacity="0.2"/>
-      <feComposite in2="blur" operator="in"/>
-      <feMerge>
-        <feMergeNode/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <filter id="noise">
-      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
-      <feColorMatrix type="saturate" values="0"/>
-    </filter>
-
     <!-- Scales of justice pattern -->
     <pattern id="legalGrid" x="0" y="0" width="60" height="60" patternUnits="userSpaceOnUse">
       <rect x="0" y="0" width="60" height="60" fill="none" stroke="#cc2222" stroke-width="0.15" opacity="0.06"/>
