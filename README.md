@@ -291,7 +291,7 @@ MIT License. See [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-**Built by [Louis Gold](https://github.com/migueljnew-droid)**&nbsp;&nbsp;·&nbsp;&nbsp;Inspired by [SPEAR Framework](https://github.com/migueljnew-droid/spear-framework)
+**Built by [Miguel Jiminez](https://github.com/migueljnew-droid)**&nbsp;&nbsp;·&nbsp;&nbsp;Inspired by [SPEAR Framework](https://github.com/migueljnew-droid/spear-framework)
 
 <br />
 
